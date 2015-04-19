@@ -1,4 +1,5 @@
 <h1>PICTURES</h1>
+<%= link_to "Back to Pictures", pictures_url %> | <%= link_to "Add a Picture", "pictures/new" %>
 
 <p><%= @picture.title %>, by: <%= @picture.artist %></p>
 <img src="<%= @picture.url %>">
